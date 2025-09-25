@@ -19,4 +19,4 @@ test_x = np.asanyarray(test[['ENGINESIZE']])
 test_y = np.asanyarray(test[['CO2EMISSIONS']])
 test_y_ = regression.predict(test_x)
 
-print(r2_score(test_y, test_y_))
+r2_score = r2_score(test_y, test_y_)
